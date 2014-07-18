@@ -1,0 +1,22 @@
+s = {
+	id = "F390DEE1-4636-4EF2-97D8-F9F309C1DEB8",
+	internalName = "All Photos",
+	title = "All Photos",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = "in",
+			value = "2014-07-02",
+			value2 = "2014-07-07",
+		},
+		{
+			criteria = "camera",
+			operation = "any",
+			value = "YOUR CAMERA HERE",
+			value2 = "",
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

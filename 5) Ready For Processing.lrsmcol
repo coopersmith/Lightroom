@@ -1,0 +1,42 @@
+s = {
+	id = "32F6A246-EA02-48BA-9CAE-A9B2390D690E",
+	internalName = "5) Ready For Processing",
+	title = "5) Ready For Processing",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = "in",
+			value = "2014-07-02",
+			value2 = "2014-07-07",
+		},
+		{
+			criteria = "camera",
+			operation = "any",
+			value = "YOUR CAMERA HERE",
+			value2 = "",
+		},
+		{
+			criteria = "rating",
+			operation = "==",
+			value = 2,
+		},
+		{
+			criteria = "pick",
+			operation = "==",
+			value = 1,
+		},
+		{
+			criteria = "hasGPSData",
+			operation = "==",
+			value = true,
+		},
+		{
+			criteria = "labelColor",
+			operation = "==",
+			value = 1,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

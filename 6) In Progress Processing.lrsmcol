@@ -1,0 +1,42 @@
+s = {
+	id = "7C4B7831-EF58-4DA0-9A06-A7D81F4D2115",
+	internalName = "6) In Progress Processing",
+	title = "6) In Progress Processing",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = "in",
+			value = "2014-07-02",
+			value2 = "2014-07-07",
+		},
+		{
+			criteria = "camera",
+			operation = "any",
+			value = "YOUR CAMERA HERE",
+			value2 = "",
+		},
+		{
+			criteria = "rating",
+			operation = "==",
+			value = 2,
+		},
+		{
+			criteria = "pick",
+			operation = "==",
+			value = 1,
+		},
+		{
+			criteria = "hasGPSData",
+			operation = "==",
+			value = true,
+		},
+		{
+			criteria = "labelColor",
+			operation = "==",
+			value = 2,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

@@ -1,0 +1,37 @@
+s = {
+	id = "C3F6EE7E-9234-4F12-B342-963D056AF845",
+	internalName = "2) Add Location",
+	title = "2) Add Location",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = "in",
+			value = "2014-07-02",
+			value2 = "2014-07-07",
+		},
+		{
+			criteria = "camera",
+			operation = "any",
+			value = "YOUR CAMERA HERE",
+			value2 = "",
+		},
+		{
+			criteria = "rating",
+			operation = ">",
+			value = 0,
+		},
+		{
+			criteria = "pick",
+			operation = "!=",
+			value = -1,
+		},
+		{
+			criteria = "hasGPSData",
+			operation = "!=",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

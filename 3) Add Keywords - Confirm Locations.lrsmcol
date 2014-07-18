@@ -1,0 +1,42 @@
+s = {
+	id = "BE37B201-F511-4050-918F-3FE99FE1D99F",
+	internalName = "3) Add Keywords - Confirm Locations",
+	title = "3) Add Keywords - Confirm Locations",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = "in",
+			value = "2014-07-02",
+			value2 = "2014-07-07",
+		},
+		{
+			criteria = "camera",
+			operation = "any",
+			value = "YOUR CAMERA HERE",
+			value2 = "",
+		},
+		{
+			criteria = "rating",
+			operation = ">",
+			value = 0,
+		},
+		{
+			criteria = "pick",
+			operation = "!=",
+			value = -1,
+		},
+		{
+			criteria = "labelColor",
+			operation = "==",
+			value = "none",
+		},
+		{
+			criteria = "hasGPSData",
+			operation = "==",
+			value = true,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}

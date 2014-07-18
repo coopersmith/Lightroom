@@ -1,0 +1,42 @@
+s = {
+	id = "48881906-C6FC-428D-9215-522064FDD7A1",
+	internalName = "4) Make Selects for Editing",
+	title = "4) Make Selects for Editing",
+	type = "LibrarySmartCollection",
+	value = {
+		{
+			criteria = "captureTime",
+			operation = "in",
+			value = "2014-07-02",
+			value2 = "2014-07-07",
+		},
+		{
+			criteria = "camera",
+			operation = "any",
+			value = "YOUR CAMERA HERE",
+			value2 = "",
+		},
+		{
+			criteria = "rating",
+			operation = "==",
+			value = 2,
+		},
+		{
+			criteria = "pick",
+			operation = "==",
+			value = 0,
+		},
+		{
+			criteria = "hasGPSData",
+			operation = "==",
+			value = true,
+		},
+		{
+			criteria = "labelColor",
+			operation = "==",
+			value = 1,
+		},
+		combine = "intersect",
+	},
+	version = 0,
+}
