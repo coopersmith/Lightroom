@@ -1,12 +1,15 @@
 Lightroom
 =========
 All photos
+
 1) Rate 
+
 X - Delete. Its blurry, dark, unsalvageable, there’s many other options to choose from of the same subject. More likely to be used for landscapes, street, etc and less likely to be used on photos of friends and family.
 ★☆☆☆☆ - Don’t delete, but I’m done with this photo. There’s better options to pursue, or it just didn’t turn out as interesting as I thought it would. Almost all photos of friends and family will get at least 1 star, unless the photo is FUBAR’ed.
 ★★☆☆☆  - This photo has promise. Advance it to the next round. Its okay to rank multiple photos of the same subject with ★★.
 
 if ★ / ★★
+
 2) Add Location - Self explanatory. Use the map module to place where they occurred. Would love to somehow automate this.
 
 3) Confirm Location/Add Keywords
