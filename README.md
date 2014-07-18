@@ -1,4 +1,4 @@
-Lightroom
+Lightroom Workflow Automation
 =========
 All photos
 
