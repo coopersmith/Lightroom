@@ -7,8 +7,8 @@ s = {
 		{
 			criteria = "captureTime",
 			operation = "in",
-			value = "2014-07-02",
-			value2 = "2014-07-07",
+			value = "YYYY-MM-DD",
+			value2 = "yyyy-mm-dd",
 		},
 		{
 			criteria = "camera",
